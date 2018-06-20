@@ -39,3 +39,46 @@ aside form input{
 .navbar-light .navbar-toggler{
     background-color: grey;
 }
+
+h2 {
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+
+    margin-bottom: 15rem;
+}
+section p {
+    font-size: 0.9em;
+
+
+}
+section p a {
+    text-decoration: underline;
+    color: green;
+
+
+}
+section p a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: green;
+}
+
+.bigHr{
+    border: solid 3px black;
+
+}
+h4{
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
+h5{
+    color: green;
+    font-size: 0.9em;
+}
+.concertDate p{
+    color: grey;
+    font-size: 0.9em;
+    line-height: 0.1em;
+}
