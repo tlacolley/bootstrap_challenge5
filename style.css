@@ -24,8 +24,26 @@ main article img{
     margin-bottom: 0.5em;
 }
 
+.audioimg{
+    width: 100%;
+}
+
 aside form input{
     width: 80%;
+}
+
+aside{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+        color: white;
+}
+
+aside a{
+    color: white;
+}
+
+aside li{
+    list-style-type: none;
 }
 
 .nav-pills .nav-link.active{
@@ -43,7 +61,6 @@ aside form input{
 h2 {
     font-size: 3em;
     font-family: 'Lato', sans-serif;
-
     margin-bottom: 15rem;
 }
 section p {
@@ -81,4 +98,16 @@ h5{
     color: grey;
     font-size: 0.9em;
     line-height: 0.1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.7em;
+    padding-bottom: 3em;
+}
+
+h6{
+    font-size: 1.2em;
+    font-weight: bold;
 }
