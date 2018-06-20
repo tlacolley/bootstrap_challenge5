@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <title>Challenge 5</title>
 </head>
 
@@ -61,41 +61,88 @@
         </div>
         <!--======================================- FIN HEADER  -->
         <!--======================================-Main  -->
+<div class="row">
+    <div class="col p-0">
 
-        <div class="row">
-            <div class="col p-0">
+        <div class="row no-gutters d-flex flex-row-reverse">
+            <div class="col-lg-10 col-md-12">
+                <!-- Col main -->
                 <main>
-                    <div class="row no-gutters">
+                    <div class="row no-gutters bg-dark">
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <article>
-                                <img src="images/nowell-featured-image-1038x576.jpg" alt="nowell" class="img-fluid">
-                            <p>BLOG</p>
-                            <h3>NOWELL WORDPRESS AUDIOTHEME FEATURES OVERVIEW</h3>
-                        </article>
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <article>
-                            <img id="batard" src="images/rodney-hayden-atascosa-sand.jpg" alt="rodney" class="img-fluid" style="height:282px;width:100%">
-                            <p>RECORDS</p>
-                            <h3>ATASCOSA SAND</h3>
+                            <article style="background-color: black; height: 380px" class="text-white">
+                                <img src="images/nowell-featured-image-1038x576.jpg" alt="nowell" class="img-fluid" style="height:282px;width:100%">
+                                <p>BLOG</p>
+                                <h3 style="font-family: 'Lato', sans-serif;font-size:1.2em">NOWELL WORDPRESS AUDIOTHEME FEATURES OVERVIEW</h3>
                             </article>
                         </div>
 
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <article>
-                            <img src="images/322267385_640.jpg" alt="640_1245" class="img-fluid" style="height:282px;width:100%">
-                            <p>VIDEOS</p>
-                            <h3>DREW KENNEDY - ANGEL BAND</h3>
+                            <article style="background-color: black;height: 380px" class="text-white">
+                                <img id="batard" src="images/rodney-hayden-atascosa-sand.jpg" alt="rodney" class="img-fluid" style="height:282px;width:100%">
+                                <p>RECORDS</p>
+                                <h3 style="font-family: 'Lato', sans-serif;font-size:1.2em">ATASCOSA SAND</h3>
+                            </article>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <article style="background-color: black; height: 380px" class="text-white">
+                                <img src="images/322267385_640.jpg" alt="640_1245" class="img-fluid" style="height:282px;width:100%">
+                                <p>VIDEOS</p>
+                                <h3 style="font-family: 'Lato', sans-serif; font-size:1.2em">DREW KENNEDY - ANGEL BAND</h3>
                             </article>
                         </div>
                     </div>
-
+                    <!-- Fin de la Div Row nav  -->
                 </main>
             </div>
+            <div class="col-lg-2 col-md-12"><!--Col Aside -->
+                <aside class="bg-dark">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Credits</a>
+                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Blog/News</a>
+                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Style guide</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Try audioTheme</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Github</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Wordpress</a>
+                        </div>
+
+                    </nav>
+
+                    <form class="navbar-form navbar-left m-3 " role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control bg-dark text-white" style=" width: 80%" placeholder="Search...">
+                        </div>
+                    </form>
+
+                    <img src="images/wide-listener-1024x1024.jpg" class="img-fluid  p-2 " alt="listener">
+                </aside>
+
+            </div>    <!-- Fin  Col Aside -->
         </div>
 
     </div>
+</div>
+        <!-- Fin de la Div Row Main  -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--  -->
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
