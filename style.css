@@ -11,7 +11,9 @@ h3{
     font-size: 1.2em;
     margin-bottom: 0.5em;
 }
-
+/* ul{
+    display: inline;
+} */
 
 main article{
     height: 410px;
@@ -19,7 +21,7 @@ main article{
 }
 aside, footer, main article p , main article h3 , header h1{
 
-    padding: 0 3%;
+    padding: 0 20px;
 
 
 }
@@ -93,6 +95,7 @@ section p a:hover{
 h4{
     font-weight: bold;
     font-size: 1.1em;
+    display: inline-block;
 
 }
 
@@ -150,6 +153,13 @@ padding: 0;
     h2{
         margin-bottom: 20%;
     }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    /* h1{
+        display: block;
+    } */
 }
 
 @media screen and (min-width: 990px){
@@ -157,4 +167,20 @@ padding: 0;
         max-width: 222px;
 
     }
+
 }
+@media screen and (max-width: 770px){
+
+nav  ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+nav li {
+
+        border-bottom: solid 2px grey;
+
+
+}
+
+    }
