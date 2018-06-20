@@ -118,10 +118,9 @@ h6{
     font-size: 1.2em;
     font-weight: bold;
 }
-.bigContainer{
+.container-fluid{
 
-    /* padding: 2%;
-    box-sizing: border-box; */
+padding: 0;
 
 }
 
@@ -150,5 +149,12 @@ h6{
     }
     h2{
         margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 990px){
+    .sidebar{
+        max-width: 222px;
+
     }
 }
